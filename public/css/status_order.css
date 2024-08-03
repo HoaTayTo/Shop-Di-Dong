@@ -1,0 +1,137 @@
+
+.container_status {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background-color: #f9f9f9;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.menu-button, .logout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button {
+    color: red;
+}
+
+.points-section {
+    margin-top: 20px;
+}
+
+.app-download {
+    margin-top: 10px;
+}
+
+.app-download p {
+    margin: 0;
+}
+
+.app-links img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.order-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+}
+
+.order-list {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.order-item {
+    border-bottom: 1px solid #ada9a9;
+    padding: 10px 0;
+}
+
+.total-price {
+    font-weight: bold;
+}
+.status {
+    color: red;
+    font-weight: bold;
+}
+
+.product-info{
+    display: flex;
+}
+.information_left{
+    width: 80%;
+}
+.status{
+    height: 30px;
+    margin-top: 50px;
+}
+.sidebar a{
+    color: black;
+}
+.sidebar :nth-last-child(1) {
+    color: #F96F3A;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 5px;
+}
+.sidebar :nth-child(3)
+{
+    border: none;
+    margin-top: 10px;
+}
+.sidebar :nth-child(3):hover
+{
+    background-color: #E4E7ED;
+}
+.sidebar :nth-last-child(1):hover{
+ color: #fff;
+ background-color: #F96F3A;
+}
+.sidebar a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+
+.sidebar a:first-child {
+    margin-top: 0;
+    border: none;
+}
+
+
